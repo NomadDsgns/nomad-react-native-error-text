@@ -2,9 +2,9 @@ import React from 'react';
 import { View, Text, Stylesheet } from 'react-native';
 
 
-export default function ErrorText({ errorText }) {
+export default function ErrorText({ text }) {
     return (<View>
-                <Text style={styles.text}>{errorText}</Text>
+                <Text style={styles.text}>{text}</Text>
             </View>);
 }
 
